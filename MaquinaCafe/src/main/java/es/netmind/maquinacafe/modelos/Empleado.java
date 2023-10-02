@@ -1,5 +1,13 @@
 package es.netmind.maquinacafe.modelos;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@AllArgsConstructor
+@Setter
+@Getter
+
 public class Empleado {
     private String nombre;
     private int ID;
